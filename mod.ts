@@ -15,6 +15,7 @@ import { getRepoUpdateSpecs, RepoUpdate } from "./mod/repo.ts";
 
 export { VERSION } from "./mod/version.ts";
 
+
 export type Options = GlobalOptions & UpdateOptions & PullRequestOptions;
 
 interface GlobalOptions {
