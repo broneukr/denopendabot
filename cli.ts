@@ -71,6 +71,7 @@ if (!options.dryRun) {
   await createPullRequest(repo, options);
 }
 
+
 if (env.CI) {
   await Deno.writeTextFile(env.GITHUB_OUTPUT!, "updated=true\n", {
     append: true,
